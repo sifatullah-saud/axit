@@ -22,6 +22,12 @@ header{
 .nav-item{
 	margin-left: 16px;
 }
+.sticky{
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	background: #061c3c;
+}
 /*****************
 	banner css
 ******************/
@@ -133,7 +139,7 @@ header{
 .social-media{
 	padding: 10px 0 15px;
 	background: #ffffff;
-	border-bottom: 3px solid #a4a5a8;;
+	border-bottom: 3px solid #a4a5a8;
 
 }
 .social-media h3{
@@ -159,7 +165,7 @@ header{
 	text-decoration: none;
 }
 .social-items ul li .fa{
-    font-size: 50px;
+    font-size: 45px;
     color: #a4a5a8;
     padding: 20px 25px;
     transition: 0.3s;
@@ -168,6 +174,10 @@ header{
 	color: #ff8b38;
 	transform: scale(1.5) rotate(10deg);
 }
+/*************************************
+	features css
+**************************************/
+
 .features{
 	width: 100%;
 	padding: 80px;
@@ -351,4 +361,278 @@ header{
 	color: #86878b;
 	font-weight: 400;
 	margin-top: 30px;
+}
+/********************************
+	pricing css
+*********************************/
+.pricing{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	background: #f5f5f5;
+}
+.t-1{
+
+
+}
+.t-header{
+	background: #333333;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 1px solid white;
+}
+.t-header h6{
+	color: white;
+	font-size: 20px;
+}
+.t-body{
+	background: #333333;
+	color: white;
+	padding: 42px 0;
+	border-bottom: 5px solid #ff8b38;
+}
+.t-body h1{
+	font-size: 94px;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+}
+.t-body h1 span{
+	font-size: 34px;
+}
+.title-divider{
+	background: #ff8b38;
+	height: 2px;
+	width: 100px;
+	margin: auto;
+	margin: 24px auto
+}
+.t-body .body-text{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	color: #959595;
+	font-weight: 600;
+}
+
+.t-footer{
+	background: white;
+}
+.t-footer ul{
+	margin: 0;
+	padding: 0; 
+}
+.t-footer ul li{
+	list-style: none;
+	border-bottom: 1px solid #f2f2f2;
+	text-transform: uppercase;
+	padding: 12px 0;
+}
+.t-footer ul li:last-child{
+	border-bottom: 0px;
+}
+.p-table{
+	margin-top: 60px;
+	align-items: flex-end;
+}
+.middle .t-body{
+	border-bottom: 0px;
+}
+.t-body-extra{
+	background-color: #ff8b38;
+}
+.t-body-extra p{
+	color: white;
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+/********************************
+	testimonial css
+*********************************/
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background: white;
+}
+.testimonial .text-design{
+	text-align: center;
+}
+.text-design{
+
+}
+.testimonial h1{
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+.message{
+	background-color: #f5f5f5;
+	padding: 26px;
+	position: relative;
+}
+.msg-icon{
+	height: 40px;
+	width: 40px;
+	background: #f5f5f5;
+	position: absolute;
+	transform: rotate(45deg);
+	bottom: -15px;
+	left: 50px;
+}
+.message p{
+	color: #86878b;
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+
+}
+.user-details{
+	margin-top: 40px;
+	
+}
+.user-details h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.user-details p{
+	font-family: 'Open Sans', sans-serif;
+}
+.user-details .col-md-4{
+	text-align: right;
+}
+.user-comment{
+	margin: 0 32px;
+}
+/********************************
+	stylish css
+*********************************/
+.stylish-section{
+    background-image: url(../img/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.stylish-section h2{
+	font-size: 36px;
+    font-family: 'Raleway', sans-serif !important;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px;
+}
+.line{
+	background: #fff;
+	height: 2px;
+	width: 100px;
+	margin: auto;
+	margin: 24px auto;
+}
+.stylish-section p{
+	font-family: 'Raleway', sans-serif !important;
+    font-size: 14px;
+    font-weight: 300;
+    color: #dcdddc;
+}
+.s-btn{
+	border: 1px solid white;
+    background: transparent;
+    padding: 14px 42px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+}
+.s-btn:hover{
+	background: #ff8b38;
+	color: black;
+	transform: rotate(5deg);
+	transition: 0.3s;
+	cursor: pointer;
+}
+/********************************
+	contact us css
+*********************************/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px 90px 0px;
+	background: white;
+}
+.upper-side{
+	text-align: center;
+}
+.contact-left{
+	margin-top: 50px;
+	padding: 0px 32px 0px 0px;
+}
+.contact-left input{
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #9999;
+	padding: 0px 20px;
+}
+.contact-right{
+	margin-top: 60px;
+	padding-left: 32px;
+}
+.contact-right textarea{
+	width: 100%;
+	height: 140px;
+	border: none;
+	border-bottom: 1px solid #9999;
+	padding: 0px 20px
+}
+.send-btn{
+	width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.send-btn button{
+	font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px 21px;
+    background: #ff8b38;
+    border: none;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.send-btn button:hover{
+	background: black;
+	transition: 0.5s;
+	cursor: pointer;
+}
+/*****************
+	footer css
+******************/
+.social-footer{
+	background: black;
+    width: 100%;
+    padding: 20px 0px 20px 0px;    text-align: center;
+}
+.social-footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 24px;
+    font-size: 32px;
+    letter-spacing: 24px;
+}
+.social-footer ul li a{
+	color: white;
+}
+.social-footer p {
+    font-family: 'Open Sans', sans-serif;
+    color: #878787;
+    font-size: 14px;
+    line-height: 8px;
+}
+.social-footer ul li a .fa:hover{
+	color: #ff8b38;
+	transform: scale(2.0) rotate(15deg);
 }
